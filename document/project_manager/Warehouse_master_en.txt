@@ -1,0 +1,114 @@
+Warehouse Master
+
+Centralized Inventory & Data Management for WordPress Online Stores
+
+1. Product Overview
+
+Warehouse Master is a SaaS platform that helps businesses manage products, inventory, and orders across multiple WordPress (WooCommerce) online stores from a single, centralized admin portal.
+
+Instead of logging into multiple WordPress dashboards, users can operate all connected stores through one independent management system.
+
+2. System Architecture Overview
+
+                 ┌─────────────────────────┐
+                 │   Public Website         │
+                 │   (No Login Required)    │
+                 │   Pricing & Features     │
+                 └───────────┬─────────────┘
+                             │
+                             ▼
+                 ┌─────────────────────────┐
+                 │  Warehouse Master        │
+                 │  Laravel Admin Portal    │
+                 │  (Multi-tenant SaaS)     │
+                 └───────────┬─────────────┘
+                             │ Secure API
+        ┌────────────────────┼─────────────────────┐
+        ▼                    ▼                     ▼
+┌──────────────┐      ┌──────────────┐     ┌──────────────┐
+│ WordPress    │      │ WordPress    │     │ WordPress    │
+│ Store A      │      │ Store B      │     │ Store C      │
+│ WooCommerce  │      │ WooCommerce  │     │ WooCommerce  │
+└──────────────┘      └──────────────┘     └──────────────┘
+
+
+3. Relationship Between Laravel & WordPress
+
+Warehouse Master does not replace WordPress.
+
+WordPress is used as the storefront for products, checkout, and payments.
+
+Laravel acts as the central admin system for inventory, synchronization, and reporting.
+
+The two systems communicate only via secure APIs, ensuring isolation and scalability.
+
+4. Client & Multi-Store Model
+
+Client (Company)
+│
+├── WordPress Store 1
+│     ├── Products
+│     ├── Orders
+│     └── Inventory
+│
+├── WordPress Store 2
+│     ├── Products
+│     ├── Orders
+│     └── Inventory
+│
+└── WordPress Store 3
+      ├── Products
+      ├── Orders
+      └── Inventory
+
+One client can connect multiple WordPress stores
+
+Each store uses independent API credentials
+
+Data is isolated per client
+
+Centralized reporting across all stores
+
+WordPress Store
+      │
+      │ Product / Order Update
+      ▼
+WooCommerce Webhook
+      │
+      ▼
+Laravel API Endpoint
+      │
+      ▼
+Queue & Sync Engine
+      │
+      ▼
+Central Database
+      │
+      ▼
+Admin Dashboard
+
+
+6. Before Login vs After Login
+Before Login
+
+Product introduction
+
+Pricing plans
+
+Feature overview
+
+Sign-up & contact
+
+After Login
+
+Independent admin portal per client
+
+Product & inventory management
+
+Multi-store synchronization
+
+Sales reports & analytics
+
+7. One-Line Positioning
+
+“Warehouse Master centralizes inventory and order management for multiple WordPress stores in one powerful admin platform.”

@@ -1,0 +1,1 @@
+之后 吧这个 sidebar 做好一点  我需要几个部分 1. product management -> upload new product, product list 2. stock management-> upload new stock list, stock list, stock layout 3.message center -> my message, send message，notification 4. setting -> account 顺序可以打乱 wording 也修改一下 最重要符合 使用习惯 最后 需要中文 和 英文 二个   帮我把里面的内容 根据逻辑也写出来

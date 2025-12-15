@@ -1,0 +1,92 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <circle cx="90" cy="90" r="90" fill="url(#bg-gradient)"/>
+  
+  <!-- Warehouse building background -->
+  <rect x="30" y="75" width="120" height="80" rx="8" fill="url(#warehouse-gradient)" stroke="url(#warehouse-stroke)" stroke-width="2"/>
+  
+  <!-- Warehouse roof -->
+  <path d="M15 85L90 25L165 85L155 85L90 40L25 85Z" fill="url(#roof-gradient)" stroke="#312e81" stroke-width="1"/>
+  
+  <!-- Main warehouse box/crate -->
+  <g transform="translate(60, 95)">
+    <!-- Box shadow -->
+    <rect x="2" y="2" width="32" height="24" fill="#000000" opacity="0.2" rx="2"/>
+    <!-- Box front face -->
+    <rect x="0" y="0" width="32" height="24" fill="url(#box-gradient)" stroke="#1f2937" stroke-width="1.5" rx="2"/>
+    <!-- Box top face -->
+    <path d="M0 0L8 -8L40 -8L32 0Z" fill="url(#box-top-gradient)" stroke="#1f2937" stroke-width="1"/>
+    <!-- Box right face -->
+    <path d="M32 0L40 -8L40 16L32 24Z" fill="url(#box-side-gradient)" stroke="#1f2937" stroke-width="1"/>
+    
+    <!-- Box details/stripes -->
+    <rect x="4" y="4" width="24" height="2" fill="#92400e" opacity="0.6" rx="1"/>
+    <rect x="4" y="8" width="24" height="2" fill="#92400e" opacity="0.6" rx="1"/>
+    <rect x="4" y="12" width="24" height="2" fill="#92400e" opacity="0.6" rx="1"/>
+  </g>
+  
+  <!-- Warehouse windows/doors -->
+  <rect x="40" y="115" width="8" height="30" rx="4" fill="#374151" opacity="0.9" stroke="#1f2937" stroke-width="0.5"/>
+  <rect x="55" y="115" width="8" height="30" rx="4" fill="#374151" opacity="0.9" stroke="#1f2937" stroke-width="0.5"/>
+  <rect x="75" y="105" width="20" height="40" rx="4" fill="#1f2937" opacity="0.95" stroke="#111827" stroke-width="1"/>
+  <rect x="105" y="115" width="8" height="30" rx="4" fill="#374151" opacity="0.9" stroke="#1f2937" stroke-width="0.5"/>
+  <rect x="120" y="115" width="8" height="30" rx="4" fill="#374151" opacity="0.9" stroke="#1f2937" stroke-width="0.5"/>
+  <rect x="135" y="115" width="8" height="30" rx="4" fill="#374151" opacity="0.9" stroke="#1f2937" stroke-width="0.5"/>
+  
+  <!-- Door handle -->
+  <circle cx="92" cy="125" r="2" fill="#9ca3af"/>
+  
+  <!-- Warning/indicator lights -->
+  <circle cx="140" cy="95" r="4" fill="#ef4444" opacity="0.9"/>
+  <circle cx="150" cy="95" r="4" fill="#f59e0b" opacity="0.9"/>
+  <circle cx="160" cy="95" r="4" fill="#10b981" opacity="0.9"/>
+  
+  <!-- Company logo/text area -->
+  <rect x="110" y="85" width="25" height="6" rx="3" fill="#6b7280" opacity="0.3"/>
+  
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="bg-gradient" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" style="stop-color:#e0e7ff;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#c7d2fe;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#a5b4fc;stop-opacity:1"/>
+    </radialGradient>
+    
+    <!-- Warehouse gradients -->
+    <linearGradient id="warehouse-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#4f46e5;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3730a3;stop-opacity:1"/>
+    </linearGradient>
+    
+    <linearGradient id="warehouse-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#312e81;stop-opacity:1"/>
+    </linearGradient>
+    
+    <linearGradient id="roof-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#5b21b6;stop-opacity:1"/>
+    </linearGradient>
+    
+    <!-- Box gradients -->
+    <linearGradient id="box-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#f59e0b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1"/>
+    </linearGradient>
+    
+    <linearGradient id="box-top-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fde047;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#fbbf24;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1"/>
+    </linearGradient>
+    
+    <linearGradient id="box-side-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#b45309;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#92400e;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

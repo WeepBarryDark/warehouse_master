@@ -1,0 +1,395 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "contact": "Contact",
+    "help": "Get Help",
+    "cart": "Cart",
+    "login": "Sign in",
+    "register": "Sign up",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "logout": "Log out"
+  },
+  "home": {
+    "hero": {
+      "title": "Transform Your {highlight} Operations",
+      "highlight": "Warehouse",
+      "subtitle": "Streamline inventory management, optimize workflows, and boost productivity with our comprehensive warehouse management platform.",
+      "cta_trial": "Start Free Trial",
+      "cta_demo": "Watch Demo"
+    },
+    "features": {
+      "title": "Everything You Need to Manage Your Warehouse",
+      "subtitle": "From inventory tracking to automated workflows, our platform provides all the tools you need to run an efficient warehouse operation.",
+      "inventory": {
+        "title": "Inventory Management",
+        "description": "Track stock levels, manage SKUs, and automate reordering with real-time inventory visibility across all locations."
+      },
+      "analytics": {
+        "title": "Analytics & Reports",
+        "description": "Get detailed insights into warehouse performance, productivity metrics, and operational efficiency with customizable dashboards."
+      },
+      "tracking": {
+        "title": "Real-time Tracking",
+        "description": "Monitor orders, shipments, and staff activities in real-time with live updates and instant notifications."
+      },
+      "quality": {
+        "title": "Quality Control",
+        "description": "Implement comprehensive quality checks and maintain product standards with automated inspection workflows."
+      },
+      "shipping": {
+        "title": "Shipping Integration",
+        "description": "Seamlessly integrate with major shipping carriers and automate label generation and tracking updates."
+      },
+      "team": {
+        "title": "Team Management",
+        "description": "Manage staff schedules, track performance, and streamline communication across your warehouse team."
+      }
+    },
+    "stats": {
+      "title": "Trusted by Industry Leaders",
+      "subtitle": "Join thousands of companies already optimizing their warehouse operations",
+      "users": "Active Users",
+      "uptime": "Uptime",
+      "items": "Items Tracked",
+      "support": "Support"
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "subtitle": "Don't just take our word for it - hear from our satisfied customers"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Warehouse?",
+      "subtitle": "Join thousands of companies already using WarehouseMaster to streamline their operations and boost productivity.",
+      "trial": "Start Your Free Trial",
+      "demo": "Schedule a Demo"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Discover our comprehensive suite of warehouse management solutions designed to optimize your operations at every level.",
+    "categories": {
+      "all": "All Products",
+      "management": "Management",
+      "analytics": "Analytics",
+      "automation": "Automation",
+      "integration": "Integration"
+    },
+    "badges": {
+      "popular": "Popular",
+      "new": "New",
+      "enterprise": "Enterprise"
+    },
+    "actions": {
+      "learn_more": "Learn More",
+      "load_more": "Load More Products"
+    },
+    "comparison": {
+      "title": "Compare Our Solutions",
+      "subtitle": "Choose the perfect solution for your warehouse size and requirements"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Choose the perfect solution for your warehouse and start your free trial today.",
+      "trial": "Start Free Trial",
+      "contact": "Contact Sales"
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your warehouse size and requirements. All plans include free setup and 24/7 support.",
+    "billing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 20%"
+    },
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for small warehouses getting started",
+        "button": "Start Free Trial"
+      },
+      "professional": {
+        "name": "Professional", 
+        "description": "Ideal for growing businesses with advanced needs",
+        "button": "Start Free Trial",
+        "popular": "Most Popular"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "For large operations requiring maximum flexibility",
+        "button": "Contact Sales"
+      }
+    },
+    "features": {
+      "users": "Up to {count} users",
+      "locations": "{count} locations",
+      "support": "{type} support"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about our pricing and plans"
+    },
+    "enterprise_cta": {
+      "title": "Need a Custom Solution?",
+      "subtitle": "For large enterprises with complex requirements, we offer custom solutions tailored to your specific needs.",
+      "contact": "Contact Sales",
+      "demo": "Schedule Demo"
+    }
+  },
+  "about": {
+    "title": "About WarehouseMaster",
+    "subtitle": "We're revolutionizing warehouse management with innovative technology that empowers businesses to optimize their operations and drive growth.",
+    "mission": {
+      "title": "Our Mission",
+      "content": "To democratize advanced warehouse management technology and make it accessible to businesses of all sizes. We believe every warehouse operation deserves the tools to maximize efficiency, reduce costs, and scale sustainably."
+    },
+    "story": {
+      "title": "Our Story"
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do"
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The passionate people behind WarehouseMaster"
+    },
+    "stats": {
+      "title": "WarehouseMaster by the Numbers",
+      "subtitle": "Our impact in the warehouse management industry"
+    },
+    "cta": {
+      "title": "Ready to Join Our Success Story?",
+      "subtitle": "Discover how WarehouseMaster can transform your warehouse operations and help you achieve your business goals.",
+      "trial": "Start Your Free Trial",
+      "demo": "Schedule a Demo"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "methods": {
+      "call": {
+        "title": "Call Us",
+        "description": "Speak directly with our support team"
+      },
+      "email": {
+        "title": "Email Us", 
+        "description": "Send us an email anytime"
+      },
+      "visit": {
+        "title": "Visit Us",
+        "description": "Come to our office in San Francisco"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email Address",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Message",
+      "newsletter": "I'd like to receive product updates and marketing communications",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "offices": {
+      "title": "Our Offices"
+    },
+    "quick_help": {
+      "title": "Quick Help",
+      "subtitle": "Looking for immediate assistance? Check out these resources."
+    },
+    "response_time": {
+      "title": "Quick Response",
+      "subtitle": "We typically respond to all inquiries within 24 hours during business days."
+    },
+    "map": {
+      "title": "Visit Our Headquarters",
+      "subtitle": "Located in the heart of San Francisco's tech district"
+    }
+  },
+  "help": {
+    "title": "Help Center",
+    "subtitle": "Find answers to your questions and get the support you need",
+    "search_placeholder": "Search for help articles, tutorials, or FAQs...",
+    "popular_topics": {
+      "title": "Popular Help Topics",
+      "subtitle": "Quick access to the most requested information"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find quick answers to common questions",
+      "categories": {
+        "all": "All Questions",
+        "general": "General",
+        "technical": "Technical", 
+        "billing": "Billing",
+        "integrations": "Integrations"
+      }
+    },
+    "resources": {
+      "title": "Additional Resources",
+      "subtitle": "Dive deeper with our comprehensive guides and tutorials"
+    },
+    "support": {
+      "title": "Still Need Help?",
+      "subtitle": "Our support team is here to help you succeed. Get in touch with us directly.",
+      "chat": {
+        "title": "Live Chat",
+        "description": "Get instant help from our support team",
+        "action": "Start Chat"
+      },
+      "email": {
+        "title": "Email Support",
+        "description": "Send us a detailed message",
+        "action": "Send Email"
+      },
+      "phone": {
+        "title": "Phone Support",
+        "description": "Speak directly with our experts",
+        "action": "Call Now"
+      },
+      "hours": "Our support hours: Monday - Friday, 9:00 AM - 6:00 PM PST",
+      "response": "Average response time: Less than 2 hours"
+    }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "subtitle": "Review your selected items and proceed to checkout",
+    "empty": {
+      "title": "Your cart is empty",
+      "subtitle": "Add some products to get started",
+      "browse": "Browse Products"
+    },
+    "quantity": "Quantity:",
+    "continue_shopping": "Continue Shopping",
+    "clear_cart": "Clear Cart",
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "setup_fee": "Setup Fee",
+      "tax": "Tax",
+      "discount": "Annual Discount (20%)",
+      "total": "Total",
+      "billed": "Billed {cycle}"
+    },
+    "promo": {
+      "label": "Promo Code",
+      "placeholder": "Enter code",
+      "apply": "Apply"
+    },
+    "billing_cycle": {
+      "title": "Billing Cycle",
+      "save": "Save 20% yearly",
+      "monthly": "Monthly",
+      "yearly": "Yearly"
+    },
+    "checkout": "Proceed to Checkout",
+    "security": {
+      "powered": "Secure checkout powered by Stripe",
+      "ssl": "SSL secured"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to WarehouseMaster",
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "product_management": "Product Management",
+      "upload_product": "Upload Product",
+      "product_list": "Product List",
+      "stock_management": "Stock Management",
+      "upload_stock": "Upload Stock",
+      "stock_list": "Stock List",
+      "stock_layout": "Stock Layout",
+      "orders": "Order Management",
+      "order_list": "Order List",
+      "backorder": "Backorders",
+      "invoice": "Invoices",
+      "messages": "Message Center",
+      "my_messages": "My Messages",
+      "send_message": "Send Message",
+      "notifications": "Notifications",
+      "document": "Documents",
+      "document_list": "Document List",
+      "forms": "Forms",
+      "settings": "Settings",
+      "account_settings": "Account Settings"
+    },
+    "stats": {
+      "total_orders": "Total Orders",
+      "pending_orders": "Pending Orders",
+      "inventory_items": "Inventory Items",
+      "notifications": "New Notifications"
+    },
+    "messages": {
+      "title": "Message Center",
+      "notifications": "Notifications",
+      "all_messages": "All Messages",
+      "unread": "Unread",
+      "mark_as_read": "Mark as Read",
+      "no_messages": "No messages yet"
+    },
+    "account": {
+      "profile": "Profile Information",
+      "company": "Company Information",
+      "orders": "Order History",
+      "deals": "Special Deals"
+    },
+    "transaction": {
+      "orders_title": "Order Management",
+      "backorder_title": "Backorder Management",
+      "invoice_title": "Invoice Management",
+      "new_order": "New Order",
+      "order_status": "Order Status",
+      "payment_status": "Payment Status"
+    },
+    "warehouse": {
+      "stock_title": "Stock Records",
+      "inventory_title": "Inventory Management",
+      "files_title": "Imported Files",
+      "stock_in": "Stock In",
+      "stock_out": "Stock Out",
+      "current_stock": "Current Stock",
+      "low_stock": "Low Stock Alert"
+    },
+    "documents": {
+      "upload_title": "Upload Documents",
+      "form_builder": "PDF Form Builder",
+      "supported_formats": "Supported formats: PDF, Images, ZIP",
+      "max_file_size": "Maximum file size: 10MB"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "view": "View",
+    "add": "Add",
+    "update": "Update",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "settings": {
+      "language": "Language",
+      "timezone": "Timezone",
+      "save_settings": "Save Settings"
+    }
+  }
+}

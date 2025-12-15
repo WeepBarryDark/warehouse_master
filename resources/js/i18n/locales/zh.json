@@ -1,0 +1,395 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "pricing": "价格",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "help": "获取帮助",
+    "cart": "购物车",
+    "login": "登录",
+    "register": "注册",
+    "dashboard": "仪表板",
+    "settings": "设置",
+    "logout": "退出登录"
+  },
+  "home": {
+    "hero": {
+      "title": "转换您的{highlight}运营",
+      "highlight": "仓库",
+      "subtitle": "通过我们的综合仓库管理平台，简化库存管理、优化工作流程并提高生产力。",
+      "cta_trial": "开始免费试用",
+      "cta_demo": "观看演示"
+    },
+    "features": {
+      "title": "管理仓库所需的一切",
+      "subtitle": "从库存跟踪到自动化工作流程，我们的平台提供运行高效仓库操作所需的所有工具。",
+      "inventory": {
+        "title": "库存管理",
+        "description": "跟踪库存水平、管理SKU，并通过跨所有位置的实时库存可见性自动化重新订购。"
+      },
+      "analytics": {
+        "title": "分析和报告",
+        "description": "通过可定制的仪表板获得仓库性能、生产力指标和运营效率的详细见解。"
+      },
+      "tracking": {
+        "title": "实时跟踪",
+        "description": "通过实时更新和即时通知监控订单、发货和员工活动。"
+      },
+      "quality": {
+        "title": "质量控制",
+        "description": "通过自动化检查工作流程实施全面质量检查并维护产品标准。"
+      },
+      "shipping": {
+        "title": "物流集成",
+        "description": "与主要物流承运商无缝集成，自动化标签生成和跟踪更新。"
+      },
+      "team": {
+        "title": "团队管理",
+        "description": "管理员工计划、跟踪绩效，并简化整个仓库团队的沟通。"
+      }
+    },
+    "stats": {
+      "title": "受行业领导者信赖",
+      "subtitle": "加入数千家已经优化仓库运营的公司",
+      "users": "活跃用户",
+      "uptime": "正常运行时间",
+      "items": "跟踪物品",
+      "support": "支持"
+    },
+    "testimonials": {
+      "title": "客户怎么说",
+      "subtitle": "不要只听我们的话 - 听听我们满意的客户的声音"
+    },
+    "cta": {
+      "title": "准备好转换您的仓库了吗？",
+      "subtitle": "加入数千家已经使用WarehouseMaster简化运营并提高生产力的公司。",
+      "trial": "开始免费试用",
+      "demo": "安排演示"
+    }
+  },
+  "products": {
+    "title": "我们的产品",
+    "subtitle": "发现我们的综合仓库管理解决方案套件，旨在优化各级运营。",
+    "categories": {
+      "all": "所有产品",
+      "management": "管理",
+      "analytics": "分析",
+      "automation": "自动化",
+      "integration": "集成"
+    },
+    "badges": {
+      "popular": "热门",
+      "new": "新品",
+      "enterprise": "企业版"
+    },
+    "actions": {
+      "learn_more": "了解更多",
+      "load_more": "加载更多产品"
+    },
+    "comparison": {
+      "title": "比较我们的解决方案",
+      "subtitle": "为您的仓库规模和要求选择完美的解决方案"
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "subtitle": "为您的仓库选择完美的解决方案，今天就开始免费试用。",
+      "trial": "开始免费试用",
+      "contact": "联系销售"
+    }
+  },
+  "pricing": {
+    "title": "简单、透明的定价",
+    "subtitle": "为您的仓库规模和要求选择完美的计划。所有计划都包括免费设置和24/7支持。",
+    "billing": {
+      "monthly": "月付",
+      "yearly": "年付",
+      "save": "节省20%"
+    },
+    "plans": {
+      "starter": {
+        "name": "入门版",
+        "description": "适合初创小型仓库",
+        "button": "开始免费试用"
+      },
+      "professional": {
+        "name": "专业版",
+        "description": "适合有高级需求的成长型企业",
+        "button": "开始免费试用",
+        "popular": "最受欢迎"
+      },
+      "enterprise": {
+        "name": "企业版",
+        "description": "适合需要最大灵活性的大型运营",
+        "button": "联系销售"
+      }
+    },
+    "features": {
+      "users": "最多{count}个用户",
+      "locations": "{count}个位置",
+      "support": "{type}支持"
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "您需要了解的关于我们定价和计划的一切"
+    },
+    "enterprise_cta": {
+      "title": "需要定制解决方案？",
+      "subtitle": "对于有复杂要求的大型企业，我们提供根据您的具体需求定制的解决方案。",
+      "contact": "联系销售",
+      "demo": "安排演示"
+    }
+  },
+  "about": {
+    "title": "关于WarehouseMaster",
+    "subtitle": "我们正在通过创新技术革命化仓库管理，帮助企业优化运营并推动增长。",
+    "mission": {
+      "title": "我们的使命",
+      "content": "民主化先进的仓库管理技术，让各种规模的企业都能使用。我们相信每个仓库运营都应该拥有最大化效率、降低成本和可持续扩展的工具。"
+    },
+    "story": {
+      "title": "我们的故事"
+    },
+    "values": {
+      "title": "我们的价值观",
+      "subtitle": "指导我们一切行动的原则"
+    },
+    "team": {
+      "title": "认识我们的团队",
+      "subtitle": "WarehouseMaster背后充满激情的人们"
+    },
+    "stats": {
+      "title": "WarehouseMaster数据",
+      "subtitle": "我们在仓库管理行业的影响"
+    },
+    "cta": {
+      "title": "准备加入我们的成功故事？",
+      "subtitle": "了解WarehouseMaster如何转换您的仓库运营并帮助您实现业务目标。",
+      "trial": "开始免费试用",
+      "demo": "安排演示"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "我们很想听到您的消息。给我们发消息，我们会尽快回复。",
+    "methods": {
+      "call": {
+        "title": "致电我们",
+        "description": "直接与我们的支持团队交谈"
+      },
+      "email": {
+        "title": "发邮件给我们",
+        "description": "随时向我们发送电子邮件"
+      },
+      "visit": {
+        "title": "拜访我们",
+        "description": "来我们在旧金山的办公室"
+      }
+    },
+    "form": {
+      "title": "给我们发消息",
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "email": "电子邮件地址",
+      "company": "公司",
+      "subject": "主题",
+      "message": "消息",
+      "newsletter": "我想接收产品更新和营销通讯",
+      "send": "发送消息",
+      "sending": "发送中..."
+    },
+    "offices": {
+      "title": "我们的办公室"
+    },
+    "quick_help": {
+      "title": "快速帮助",
+      "subtitle": "寻找即时帮助？查看这些资源。"
+    },
+    "response_time": {
+      "title": "快速响应",
+      "subtitle": "我们通常在工作日24小时内回复所有询问。"
+    },
+    "map": {
+      "title": "参观我们的总部",
+      "subtitle": "位于旧金山科技区的中心"
+    }
+  },
+  "help": {
+    "title": "帮助中心",
+    "subtitle": "找到问题的答案并获得所需的支持",
+    "search_placeholder": "搜索帮助文章、教程或常见问题...",
+    "popular_topics": {
+      "title": "热门帮助主题",
+      "subtitle": "快速访问最常请求的信息"
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "快速找到常见问题的答案",
+      "categories": {
+        "all": "所有问题",
+        "general": "一般",
+        "technical": "技术",
+        "billing": "计费",
+        "integrations": "集成"
+      }
+    },
+    "resources": {
+      "title": "其他资源",
+      "subtitle": "通过我们的综合指南和教程深入了解"
+    },
+    "support": {
+      "title": "仍需帮助？",
+      "subtitle": "我们的支持团队在这里帮助您成功。直接与我们联系。",
+      "chat": {
+        "title": "在线聊天",
+        "description": "从我们的支持团队获得即时帮助",
+        "action": "开始聊天"
+      },
+      "email": {
+        "title": "电子邮件支持",
+        "description": "向我们发送详细消息",
+        "action": "发送电子邮件"
+      },
+      "phone": {
+        "title": "电话支持",
+        "description": "直接与我们的专家交谈",
+        "action": "立即致电"
+      },
+      "hours": "我们的支持时间：周一至周五，上午9:00 - 下午6:00 (PST)",
+      "response": "平均响应时间：不到2小时"
+    }
+  },
+  "cart": {
+    "title": "购物车",
+    "subtitle": "查看您选择的商品并进行结账",
+    "empty": {
+      "title": "您的购物车是空的",
+      "subtitle": "添加一些产品开始",
+      "browse": "浏览产品"
+    },
+    "quantity": "数量：",
+    "continue_shopping": "继续购物",
+    "clear_cart": "清空购物车",
+    "summary": {
+      "title": "订单摘要",
+      "subtotal": "小计",
+      "setup_fee": "设置费",
+      "tax": "税费",
+      "discount": "年付折扣 (20%)",
+      "total": "总计",
+      "billed": "{cycle}计费"
+    },
+    "promo": {
+      "label": "促销代码",
+      "placeholder": "输入代码",
+      "apply": "应用"
+    },
+    "billing_cycle": {
+      "title": "计费周期",
+      "save": "年付节省20%",
+      "monthly": "月付",
+      "yearly": "年付"
+    },
+    "checkout": "进行结账",
+    "security": {
+      "powered": "由Stripe提供安全结账",
+      "ssl": "SSL安全"
+    }
+  },
+  "dashboard": {
+    "title": "仪表板",
+    "welcome": "欢迎使用WarehouseMaster",
+    "sidebar": {
+      "dashboard": "仪表板",
+      "product_management": "产品管理",
+      "upload_product": "上传产品",
+      "product_list": "产品列表",
+      "stock_management": "库存管理",
+      "upload_stock": "上传库存",
+      "stock_list": "库存列表",
+      "stock_layout": "库存布局",
+      "orders": "订单管理",
+      "order_list": "订单列表",
+      "backorder": "缺货订单",
+      "invoice": "发票",
+      "messages": "消息中心",
+      "my_messages": "我的消息",
+      "send_message": "发送消息",
+      "notifications": "通知",
+      "document": "文档",
+      "document_list": "文档列表",
+      "forms": "表单",
+      "settings": "设置",
+      "account_settings": "账户设置"
+    },
+    "stats": {
+      "total_orders": "总订单数",
+      "pending_orders": "待处理订单",
+      "inventory_items": "库存商品",
+      "notifications": "新通知"
+    },
+    "messages": {
+      "title": "消息中心",
+      "notifications": "通知",
+      "all_messages": "所有消息",
+      "unread": "未读",
+      "mark_as_read": "标记为已读",
+      "no_messages": "暂无消息"
+    },
+    "account": {
+      "profile": "个人信息",
+      "company": "公司信息",
+      "orders": "订单历史",
+      "deals": "特别优惠"
+    },
+    "transaction": {
+      "orders_title": "订单管理",
+      "backorder_title": "缺货订单管理",
+      "invoice_title": "发票管理",
+      "new_order": "新订单",
+      "order_status": "订单状态",
+      "payment_status": "付款状态"
+    },
+    "warehouse": {
+      "stock_title": "库存记录",
+      "inventory_title": "库存管理",
+      "files_title": "导入文件",
+      "stock_in": "入库",
+      "stock_out": "出库",
+      "current_stock": "当前库存",
+      "low_stock": "低库存警告"
+    },
+    "documents": {
+      "upload_title": "上传文档",
+      "form_builder": "PDF表单生成器",
+      "supported_formats": "支持格式：PDF、图片、ZIP",
+      "max_file_size": "最大文件大小：10MB"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "success": "成功！",
+    "cancel": "取消",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一个",
+    "previous": "上一个",
+    "close": "关闭",
+    "view": "查看",
+    "add": "添加",
+    "update": "更新",
+    "search": "搜索",
+    "filter": "筛选",
+    "export": "导出",
+    "import": "导入",
+    "settings": {
+      "language": "语言",
+      "timezone": "时区",
+      "save_settings": "保存设置"
+    }
+  }
+}
