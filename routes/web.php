@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\ShippingDocumentController;
 
 // E-commerce public routes
 Route::get('/', function () {
@@ -98,15 +99,49 @@ Route::middleware(['auth', 'verified', 'client'])->group(function () {
         })->name('imported_files');
     });
 
-    // Document Management - Admin, Super Admin only
-    Route::prefix('dashboard/documents')->name('dashboard.documents.')->middleware('role:document')->group(function () {
-        Route::get('/company-profile', function () {
-            return Inertia::render('dashboard/documents/CompanyProfile');
-        })->name('company_profile');
-        
-        Route::get('/forms', function () {
-            return Inertia::render('dashboard/documents/Forms');
-        })->name('forms');
+    // Product Management
+    Route::prefix('dashboard/products')->name('dashboard.products.')->group(function () {
+        Route::get('/', function () {
+            return Inertia::render('dashboard/products/Index');
+        })->name('index');
+
+        Route::get('/new', function () {
+            return Inertia::render('dashboard/products/New');
+        })->name('new');
+    });
+
+    // Stock Management
+    Route::prefix('dashboard/stock')->name('dashboard.stock.')->group(function () {
+        Route::get('/', function () {
+            return Inertia::render('dashboard/stock/Index');
+        })->name('index');
+
+        Route::get('/new', function () {
+            return Inertia::render('dashboard/stock/New');
+        })->name('new');
+
+        Route::get('/layout', function () {
+            return Inertia::render('dashboard/stock/Layout');
+        })->name('layout');
+    });
+
+    // Shipping Documents Management
+    Route::prefix('dashboard/documents')->name('dashboard.documents.')->group(function () {
+        Route::get('/', [ShippingDocumentController::class, 'index'])->name('index');
+        Route::get('/create', [ShippingDocumentController::class, 'create'])->name('create');
+        Route::post('/', [ShippingDocumentController::class, 'store'])->name('store');
+        Route::get('/analytics', [ShippingDocumentController::class, 'analytics'])->name('analytics');
+        Route::get('/{document}', [ShippingDocumentController::class, 'show'])->name('show');
+        Route::post('/{document}/parse', [ShippingDocumentController::class, 'parse'])->name('parse');
+        Route::get('/{document}/download', [ShippingDocumentController::class, 'download'])->name('download');
+        Route::delete('/{document}', [ShippingDocumentController::class, 'destroy'])->name('destroy');
+    });
+
+    // Message Center - Send Message
+    Route::prefix('dashboard/messages')->name('dashboard.messages.')->group(function () {
+        Route::get('/send', function () {
+            return Inertia::render('dashboard/messages/Send');
+        })->name('send');
     });
 
     // System Settings - Available to all roles

@@ -13,20 +13,18 @@ import {
     MessageSquare,
     Bell,
     User,
-    ShoppingCart,
-    FileText,
-    ArrowDownUp,
-    Receipt,
     Package,
     Upload,
     Settings,
-    FormInput,
     PackagePlus,
     List,
     LayoutTemplate,
     Send,
     Inbox,
-    Archive
+    Archive,
+    FileSpreadsheet,
+    FileUp,
+    BarChart3,
 } from 'lucide-vue-next';
 import AppLogo from './AppLogo.vue';
 
@@ -43,8 +41,8 @@ const mainNavItems: NavItem[] = [
         icon: Package,
         items: [
             {
-                title: t('dashboard.sidebar.upload_product'),
-                href: '/dashboard/products/upload',
+                title: t('dashboard.sidebar.new_product'),
+                href: '/dashboard/products/new',
                 icon: PackagePlus,
             },
             {
@@ -59,8 +57,8 @@ const mainNavItems: NavItem[] = [
         icon: Archive,
         items: [
             {
-                title: t('dashboard.sidebar.upload_stock'),
-                href: '/dashboard/stock/upload',
+                title: t('dashboard.sidebar.new_stock'),
+                href: '/dashboard/stock/new',
                 icon: Upload,
             },
             {
@@ -76,28 +74,28 @@ const mainNavItems: NavItem[] = [
         ],
     },
     {
-        title: t('dashboard.sidebar.orders'),
-        icon: ShoppingCart,
+        title: t('dashboard.sidebar.document_management'),
+        icon: FileSpreadsheet,
         items: [
             {
-                title: t('dashboard.sidebar.order_list'),
-                href: '/dashboard/orders',
+                title: t('dashboard.sidebar.upload_document'),
+                href: '/dashboard/documents/create',
+                icon: FileUp,
+            },
+            {
+                title: t('dashboard.sidebar.document_list'),
+                href: '/dashboard/documents',
                 icon: List,
             },
             {
-                title: t('dashboard.sidebar.backorder'),
-                href: '/dashboard/orders/backorders',
-                icon: ArrowDownUp,
-            },
-            {
-                title: t('dashboard.sidebar.invoice'),
-                href: '/dashboard/orders/invoices',
-                icon: Receipt,
+                title: t('dashboard.sidebar.document_analytics'),
+                href: '/dashboard/documents/analytics',
+                icon: BarChart3,
             },
         ],
     },
     {
-        title: t('dashboard.sidebar.messages'),
+        title: t('dashboard.sidebar.message_center'),
         icon: MessageSquare,
         items: [
             {
@@ -118,27 +116,11 @@ const mainNavItems: NavItem[] = [
         ],
     },
     {
-        title: t('dashboard.sidebar.document'),
-        icon: Folder,
-        items: [
-            {
-                title: t('dashboard.sidebar.document_list'),
-                href: '/dashboard/documents',
-                icon: List,
-            },
-            {
-                title: t('dashboard.sidebar.forms'),
-                href: '/dashboard/documents/forms',
-                icon: FormInput,
-            },
-        ],
-    },
-    {
         title: t('dashboard.sidebar.settings'),
         icon: Settings,
         items: [
             {
-                title: t('dashboard.sidebar.account_settings'),
+                title: t('dashboard.sidebar.account'),
                 href: '/dashboard/settings',
                 icon: User,
             },
